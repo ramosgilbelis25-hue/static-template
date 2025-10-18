@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Feliz cumpleaños Cristian</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    .container {
+      max-width: 950px;
+      margin: auto;
+      padding: 2rem;
+      background: rgba(0, 0, 0, 0.75);
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.6);
+      animation: fadeIn 2s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 3.5rem;
+      text-align: center;
+      color: #ffcc00;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 1.8rem;
+      color: #ffddc1;
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 2rem;
+    }
+
+    li {
+      margin-bottom: 10px;
+      padding-left: 1rem;
+      position: relative;
+      line-height: 1.6;
+    }
+
+    li::before {
+      content: "🌻";
+      position: absolute;
+      left: 0;
+    }
+
+    .signature {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #ffcc00;
+    }
+
+    .date {
+      text-align: center;
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Feliz cumpleaños Cristian!</h1>
+    <h2>Felices 35, amor 🥳🏍️</h2>
+
+    <ul>
+      <li>1. Que cada día te despierte con emoción. ❤️</li>
+      <li>2. Que tu corazón se sienta acompañado, siempre. 🌻</li>
+      <li>3. Que tus sueños corran libres y sin límites. ✨</li>
+      <li>4. Que la adrenalina te acompañe en cada aventura. 🏍️</li>
+      <li>5. Que tu camino esté lleno de paisajes inolvidables. 🌄</li>
+      <li>6. Que el rugido de tus ideas se escuche fuerte y claro. 🔊</li>
+      <li>7. Que tus decisiones sean firmes y seguras. 🛠️</li>
+      <li>8. Que tus días tengan el ritmo que te hace feliz. 🎶</li>
+      <li>9. Que cada giro inesperado te sorprenda para bien. 🔄</li>
+      <li>10. Que la noche te regale luces que te inspiren. 🌃</li>
+      <li>11. Que tu historia tenga momentos que te hagan sonreír. 😍</li>
+      <li>12. Que tus recuerdos estén llenos de alegría y locuras compartidas. 🤪</li>
+      <li>13. Que la emoción te acompañe como copiloto fiel. 🚘</li>
+      <li>14. Que Dios te dé sabiduría para actuar con verdad y paz. 🙏</li>
+      <li>15. Que cada cumpleaños se sienta como un nuevo comienzo. 🎂</li>
+      <li>16. Que Dios renueve tu fuerza cuando sientas que te falta. ✝️</li>
+      <li>17. Que cada reto te motive a ir más allá, sin miedo. 🏁</li>
+      <li>18. Que tu mirada tenga el foco de lo que realmente importa. 🎯</li>
+      <li>19. Que tu alma vibre con lo que te apasiona. 🔥</li>
+      <li>20. Que tus pausas sirvan para respirar, no para detenerte. 🌬️</li>
+      <li>21. Que la dulzura te parezca valiente. 🍯</li>
+      <li>22. Que la calma te visite cuando más la necesites. 🧘</li>
+      <li>23. Que siempre sientas que tienes a alguien que te elige todos los días. 💘</li>
+      <li>24. Que nunca olvides lo mucho que te adoro. 💖</li>
+      <li>25. Que tu vida esté llena de aventuras, risas y momentos que te hagan sentir vivo. 🎢</li>
+      <li>26. Que el sol te abrace con calidez y que Dios te acompañe y te cuide siempre. ☀️🙏</li>
+      <li>27. Que la ternura te visite sin aviso. 🐣</li>
+      <li>28. Que descubras la belleza de lo simple y lo intenso. 🌈</li>
+      <li>29. Que tus pasos te lleven a lugares seguros. 👣</li>
+      <li>30. Que la alegría te sorprenda en lo cotidiano. 😄</li>
+      <li>31. Que la compañía sincera te haga sonreír. 🤗</li>
+      <li>32. Que el presente te regale momentos dulces. 🍰</li>
+      <li>33. Que el futuro te inspire a soñar. 🌠</li>
+      <li>34. Que tu vida tenga el diseño que tú elijas. 🧩</li>
+      <li>35. Que cada día te recuerde que eres profundamente amado. ❤️</li>
+    </ul>
+
+    <div class="signature">Con amor, Gilbelis 💖</div>
+    <div class="date">20/10/2025</div>
+  </div>
+</body>
+</html>
